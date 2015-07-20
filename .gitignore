@@ -204,3 +204,8 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# Views
+Skepsi.WebSite/node_modules
+Skepsi.WebSite/*/bower_components
+Skepsi.WebSite/.tmp
