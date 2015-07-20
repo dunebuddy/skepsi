@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Skepsi.WebSite", "http://localhost:1509", "{C4A7F86A-E2DE-4ACB-AFCB-DFBD664CE87A}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1509"
+		Debug.AspNetCompiler.PhysicalPath = "Skepsi.WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1509\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1509"
+		Release.AspNetCompiler.PhysicalPath = "Skepsi.WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1509\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Skepsi.WebSite\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skepsi.Api", "Skepsi.Api\Skepsi.Api.csproj", "{40E63A4B-D7AF-43FB-A826-607656850BAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4A7F86A-E2DE-4ACB-AFCB-DFBD664CE87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A7F86A-E2DE-4ACB-AFCB-DFBD664CE87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A7F86A-E2DE-4ACB-AFCB-DFBD664CE87A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A7F86A-E2DE-4ACB-AFCB-DFBD664CE87A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{40E63A4B-D7AF-43FB-A826-607656850BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E63A4B-D7AF-43FB-A826-607656850BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E63A4B-D7AF-43FB-A826-607656850BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E63A4B-D7AF-43FB-A826-607656850BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
