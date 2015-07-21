@@ -9,6 +9,7 @@ namespace Skepsi.Api.Controllers
 {
     public class PensamentosController : ApiController
     {
+        // Preparar para EF
         // GET api/<controller>
         public IEnumerable<string> Get()
         {
