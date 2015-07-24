@@ -5,6 +5,7 @@
 ## Status das builds
 |branch|status|
 |------|------|
+|master|![](https://travis-ci.org/dunebuddy/skepsi.svg?branch=master)|
 |develop|![](https://travis-ci.org/dunebuddy/skepsi.svg?branch=develop)|
 
 
@@ -26,7 +27,7 @@ O Skepsi (do grego Σκέψη, pensamento) é um aplicativo que vai permitir que
 
 ## Processo e padrões
 ###### git e GitHub
-O GitHub centraliza a maioria da "gerência" do sistema o backlog é criado diretamente como issues.
+O GitHub centraliza a maioria da "gerência" do sistema, nosso backlog é criado diretamente como issues.
 
 
 ###### git-flow
