@@ -2,16 +2,16 @@
 ###### Compartilhando pesamentos colaborativamente :)
 [![Join the chat at https://gitter.im/dunebuddy/skepsi](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dunebuddy/skepsi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Status das builds
+## Status das builds [![Build status](https://ci.appveyor.com/api/projects/status/kubjt2q33yghyego?svg=true)](https://ci.appveyor.com/project/dunebuddy/skepsi)
 |branch|status|
 |------|------|
-|master|![](https://travis-ci.org/dunebuddy/skepsi.svg?branch=master)|
-|develop|![](https://travis-ci.org/dunebuddy/skepsi.svg?branch=develop)|
+|develop|[![Build status](https://ci.appveyor.com/api/projects/status/kubjt2q33yghyego/branch/develop?svg=true)](https://ci.appveyor.com/project/dunebuddy/skepsi/branch/develop)|
 
 
 ## Ferramentas
 * [waffle.io](https://waffle.io/dunebuddy/skepsi) - Kanban, totalmente integrado ao GitHub.
-* [Travis CI](https://travis-ci.org/dunebuddy/skepsi) - Integração contínua.
+* ~~[Travis CI](https://travis-ci.org/dunebuddy/skepsi) - Integração contínua.~~
+* [AppVeyor](https://ci.appveyor.com/project/dunebuddy/skepsi) - Integração contínua.
 
 
 ## Sobre
