@@ -7,6 +7,8 @@
   <configSections>
     <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
     <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+  </configSections>
   <appSettings>
     <add key="webpages:Version" value="3.0.0.0" />
     <add key="webpages:Enabled" value="false" />
@@ -14,8 +16,12 @@
     <add key="UnobtrusiveJavaScriptEnabled" value="true" />
   </appSettings>
   <connectionStrings>
+<<<<<<< HEAD
     <!--<add name="PensamentosDb" connectionString="Data Source=(LocalDB)\v11.0; Initial Catalog=PensamentosDb; Integrated Security=True; MultipleActiveResultSets=True; AttachDBFilename=|DataDirectory|\PensamentosDb.mdf" providerName="System.Data.SqlClient" />-->
     <add name="PensamentosDb" connectionString="Data Source=|DataDirectory|\PensamentosDb.sdf" providerName="System.Data.SqlServerCe.4.0" />
+=======
+    <add name="PensamentosDb" connectionString="Data Source=(LocalDB)\v11.0; Initial Catalog=PensamentosDb; Integrated Security=True; MultipleActiveResultSets=True; AttachDBFilename=|DataDirectory|\PensamentosDb.mdf" providerName="System.Data.SqlClient" />
+>>>>>>> implenetar-ninject-9
   </connectionStrings>
   <system.web>
     <compilation debug="true" targetFramework="4.5" />
