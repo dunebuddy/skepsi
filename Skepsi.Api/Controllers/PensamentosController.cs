@@ -12,14 +12,25 @@ namespace Skepsi.Api.Controllers
     [EnableCors("*","*","*")]
     public class PensamentosController : ApiController
     {
-        PensamentoCtx ctx = new PensamentoCtx();
+        PensamentoCtx _ctx;
 
-        public IHttpActionResult Get()
+        public PensamentosController(PensamentoCtx ctx)
         {
-            var pensamentos = ctx.Pensamentos.ToList<Pensamento>();
+            _ctx = ctx;
+        }
+        [HttpGet]
+        public IHttpActionResult Lista()
+        {
+            var pensamentos = _ctx.Pensamentos.ToList<Pensamento>();
             return Ok(pensamentos);
         }
 
+        [HttpGet]
+        public IHttpActionResult Dia()
+        {
+            var pensamento = _ctx.Pensamentos.First<Pensamento>();
+            return Ok(pensamento);
+        }
        
     }
 }
