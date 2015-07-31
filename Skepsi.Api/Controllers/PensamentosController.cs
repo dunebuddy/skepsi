@@ -31,6 +31,26 @@ namespace Skepsi.Api.Controllers
             var pensamento = _context.Pensamentos.First<Pensamento>();
             return Ok(pensamento);
         }
+
+        [HttpPost]
+        public IHttpActionResult Incluir([FromBody] String pensamento)
+        {
+            if (String.IsNullOrEmpty(pensamento))
+            {
+                return BadRequest("Pensamento não pode ser vazio");
+            }
+
+            Pensamento novoPensamento = new Pensamento()
+            {
+                CriadoEm = DateTime.Today.Date,
+                DescricaoPensamento = pensamento
+            };
+
+            _context.Pensamentos.Add(novoPensamento);
+            _context.SaveChanges();
+
+            return Created<Pensamento>(Request.RequestUri + novoPensamento.Id.ToString(), novoPensamento);
+        }
        
     }
 }
