@@ -61,7 +61,7 @@ namespace Skepsi.Api.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            kernel.Bind<PensamentoCtx>().ToSelf();
+            kernel.Bind<PensamentoDbContext>().ToSelf();
         }        
     }
 }
