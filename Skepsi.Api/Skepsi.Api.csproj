@@ -196,10 +196,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Mappings\PensamentoMap.cs" />
+    <Compile Include="EntityTypeConfigurations\PensamentoDoDiaEntityTypeConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\PensamentoEntityTypeConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Pensamento.cs" />
-    <Compile Include="PensamentoCtx.cs" />
+    <Compile Include="Models\PensamentoDoDia.cs" />
+    <Compile Include="PensamentoDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

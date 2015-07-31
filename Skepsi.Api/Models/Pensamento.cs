@@ -9,6 +9,6 @@ namespace Skepsi.Api.Models
     {
         public int Id { get; set; }
         public DateTime CriadoEm { get; set; }
-        public String DescricaoPensamento { get; set; }
+        public string DescricaoPensamento { get; set; }
     }
 }

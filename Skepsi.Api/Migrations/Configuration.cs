@@ -6,7 +6,7 @@ namespace Skepsi.Api.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Skepsi.Api.PensamentoCtx>
+    internal sealed class Configuration : DbMigrationsConfiguration<Skepsi.Api.PensamentoDbContext>
     {
         public Configuration()
         {
@@ -14,7 +14,7 @@ namespace Skepsi.Api.Migrations
             AutomaticMigrationDataLossAllowed = true;
         }
 
-        protected override void Seed(Skepsi.Api.PensamentoCtx context)
+        protected override void Seed(Skepsi.Api.PensamentoDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

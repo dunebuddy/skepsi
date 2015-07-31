@@ -12,23 +12,23 @@ namespace Skepsi.Api.Controllers
     [EnableCors("*","*","*")]
     public class PensamentosController : ApiController
     {
-        PensamentoCtx _ctx;
+        PensamentoDbContext _context;
 
-        public PensamentosController(PensamentoCtx ctx)
+        public PensamentosController(PensamentoDbContext context)
         {
-            _ctx = ctx;
+            _context = context;
         }
         [HttpGet]
         public IHttpActionResult Lista()
         {
-            var pensamentos = _ctx.Pensamentos.ToList<Pensamento>();
+            var pensamentos = _context.Pensamentos.ToList<Pensamento>();
             return Ok(pensamentos);
         }
 
         [HttpGet]
         public IHttpActionResult Dia()
         {
-            var pensamento = _ctx.Pensamentos.First<Pensamento>();
+            var pensamento = _context.Pensamentos.First<Pensamento>();
             return Ok(pensamento);
         }
        
