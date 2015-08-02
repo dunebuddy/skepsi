@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="skepsi">
+    <head>
+        <meta charset="utf-8">
+        <title>Skepsi</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/vendor/modernizr.js"></script>
+        <link charset="utf-8" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/normalize.min.css" media="screen" rel="stylesheet">
+        <link charset="utf-8" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css" media="screen" rel="stylesheet">
+        <link charset="utf-8" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="screen" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="row" ng-controller="mainController">
+            <div class="small-12 medium-8 medium-centered columns">
+
+                <h1>Skepsi</h1>
+                <h2>
+                    <small>Compartilhando pesamentos colaborativamente :)</small>
+                </h2>
+
+                <div class="panel callout radius">
+                    <h3>
+                        <strong>Olá {{ name }}, o pensamento do dia é:</strong>
+                    </h5>
+                    <p>
+                        <em>It's a little ostentatious, but useful for important content.
+                        </em>
+                    </p>
+                </div>
+
+                <form>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <div class="row collapse">
+                                <div class="small-10 columns">
+                                    <input placeholder="Adicionar Pensamento" type="text">
+                                </div>
+                                <div class="small-2 columns">
+                                    <a class="button postfix" href="#">
+                                        <i class="fa fa-send"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/vendor/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+        <script src="app/skepsi.js">
+
+        </script>
+    </body>
+</html>
