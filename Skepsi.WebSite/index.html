@@ -27,22 +27,22 @@
                     </p>
                 </div>
 
-                <form>
+                <div>
                     <div class="row">
                         <div class="large-12 columns">
                             <div class="row collapse">
                                 <div class="small-10 columns">
-                                    <input placeholder="Adicionar Pensamento" type="text">
+                                    <input placeholder="Adicionar Pensamento" type="text" ng-model="novoPensamento">
                                 </div>
                                 <div class="small-2 columns">
-                                    <a class="button postfix" href="#">
+                                    <a class="button postfix" href="#" ng-click="addPensamento()">
                                         <i class="fa fa-send"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
 
             </div>
         </div>

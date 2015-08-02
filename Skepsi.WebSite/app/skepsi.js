@@ -19,6 +19,23 @@
                     console.log(data);
                 });
 
+            $scope.novoPensamento = '';
+            $scope.addPensamento = function () {
+                $http.post('http://skepsiteste.azurewebsites.net/api/Pensamentos/Incluir', {
+                    pensamento: $scope.novoPensamento
+                })
+                .success(function (result) {
+
+                    console.log(result);
+                    $scope.novoPensamento = '';
+
+                })
+                .error(function (data, status) {
+
+                    console.log(data);
+
+                });
+            };
         }
     ]);
 }());
