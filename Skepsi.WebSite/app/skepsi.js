@@ -21,9 +21,8 @@
 
             $scope.novoPensamento = '';
             $scope.addPensamento = function () {
-                $http.post('http://skepsiteste.azurewebsites.net/api/Pensamentos/Incluir', {
-                    pensamento: $scope.novoPensamento
-                })
+                $http.post('http://skepsiteste.azurewebsites.net/api/pensamentos/incluir', '"' + $scope.novoPensamento + '"'
+                )
                 .success(function (result) {
 
                     console.log(result);
